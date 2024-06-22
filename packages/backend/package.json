@@ -16,5 +16,12 @@
 	},
 	"bugs": {
 		"url": "https://github.com/sarangspadalkar/event-schedular/issues"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.21",
+		"@types/node": "^20.14.7",
+		"express": "^4.19.2",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.5.2"
 	}
 }
