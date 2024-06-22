@@ -1,0 +1,20 @@
+{
+	"name": "backend",
+	"version": "0.0.0",
+	"description": "backend for event schedular",
+	"author": "Sarang Padalkar <padalkar.sarang@gmail.com>",
+	"homepage": "https://github.com/sarangspadalkar/event-schedular#readme",
+	"license": "ISC",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sarangspadalkar/event-schedular.git"
+	},
+	"scripts": {
+		"test:types": "tsc --noEmit"
+	},
+	"bugs": {
+		"url": "https://github.com/sarangspadalkar/event-schedular/issues"
+	}
+}
