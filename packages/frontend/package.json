@@ -1,0 +1,45 @@
+{
+    "name": "frontend",
+    "homepage": "https://github.com/sarangspadalkar/event-schedular",
+    "bugs": {
+        "url": "https://github.com/sarangspadalkar/event-schedular/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sarangspadalkar/event-schedular.git"
+    },
+    "license": "(MIT or CC0 1.0)",
+    "author": {
+        "name": "sarangspadalkar",
+        "url": "https://github.com/sarangspadalkar"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "virmator frontend build",
+        "compile": "virmator compile",
+        "docs": "virmator docs",
+        "format": "virmator format",
+        "preview": "virmator frontend preview",
+        "publish": "virmator publish \"npm run compile && npm run test:all\"",
+        "start": "virmator frontend",
+        "test": "virmator test",
+        "test:all": "concurrently --colors --kill-others-on-fail -c auto --names types,tests,spelling,format,docs,deps \"npm run test:types\" \"npm run test:coverage\" \"npm run test:spelling\" \"npm run test:format\" \"npm run test:docs\" \"npm run test:deps\"",
+        "test:coverage": "npm run test coverage",
+        "test:deps": "virmator deps check",
+        "test:docs": "virmator docs check",
+        "test:format": "virmator format check",
+        "test:spelling": "virmator spellcheck",
+        "test:types": "tsc --noEmit",
+        "test:web": "virmator test-web"
+    },
+    "dependencies": {
+        "element-vir": "^22.2.2"
+    },
+    "devDependencies": {
+        "esbuild": "^0.21.5",
+        "typescript": "^5.4.5",
+        "vite": "^4.5.3",
+        "vite-tsconfig-paths": "^4.3.2"
+    }
+}
