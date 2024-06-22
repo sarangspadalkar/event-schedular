@@ -12,7 +12,8 @@
 		"url": "git+https://github.com/sarangspadalkar/event-schedular.git"
 	},
 	"scripts": {
-		"test:types": "tsc --noEmit"
+		"test:types": "tsc --noEmit",
+		"start": "ts-node src/index.ts"
 	},
 	"bugs": {
 		"url": "https://github.com/sarangspadalkar/event-schedular/issues"
