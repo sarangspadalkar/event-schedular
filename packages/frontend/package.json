@@ -37,6 +37,7 @@
         "element-vir": "^22.2.2"
     },
     "devDependencies": {
+        "@augment-vir/node-js": "^28.2.4",
         "esbuild": "^0.21.5",
         "typescript": "^5.4.5",
         "vite": "^4.5.3",
