@@ -1,9 +1,9 @@
 {
-    "compilerOptions": {
-      "composite": true,
-      "declaration": true,
-      "exactOptionalPropertyTypes": false,
-      "noEmit": false
-    },
-    "extends": "virmator/base-configs/tsconfig.base.json"
-  }
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "exactOptionalPropertyTypes": false,
+    "noEmit": false
+  },
+  "extends": "virmator/base-configs/tsconfig.base.json"
+}
