@@ -8,12 +8,14 @@
         "format": "prettier --write .",
         "lint": "eslint .",
         "start": "concurrently --kill-others -n backend,frontend -c auto \"lerna run start --scope=backend\" \"lerna run start --scope=frontend\"",
+        "test:spelling": "virmator spellcheck",
         "test:types": "lerna run test:types"
     },
     "devDependencies": {
         "@augment-vir/node-js": "^28.2.4",
         "@types/node": "^20.14.7",
         "@typescript-eslint/eslint-plugin": "^7.13.1",
+        "cspell": "^8.9.1",
         "esbuild": "^0.21.5",
         "eslint": "^8.56.0",
         "eslint-config-airbnb": "^19.0.4",
