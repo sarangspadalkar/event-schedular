@@ -16,6 +16,7 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "start": "ts-node src/router/index.ts",
+        "test:spelling": "virmator spellcheck",
         "test:types": "tsc --noEmit"
     },
     "dependencies": {
