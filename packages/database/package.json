@@ -1,0 +1,17 @@
+{
+    "name": "database",
+    "version": "0.0.0",
+    "description": "database for event schedular",
+    "homepage": "https://github.com/sarangspadalkar/event-schedular#readme",
+    "bugs": {
+        "url": "https://github.com/sarangspadalkar/event-schedular/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sarangspadalkar/event-schedular.git"
+    },
+    "license": "ISC",
+    "author": "Sarang Padalkar <padalkar.sarang@gmail.com>",
+    "main": "src/database.js",
+    "scripts": {}
+}
